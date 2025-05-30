@@ -870,6 +870,67 @@ def health_check():
     }
     return jsonify(health_status)
 
+@app.route('/api/ontology/export', methods=['GET'])
+def export_ontology():
+    """Export the complete ontology with all data in RDF/XML format"""
+    try:
+        # Create a new RDF graph
+        g = Graph()
+        
+        # Define namespaces
+        ns = Namespace(ONTOLOGY_NS)
+        g.bind("food", ns)
+        g.bind("rdf", RDF)
+        g.bind("rdfs", RDFS)
+        
+        # Add ontology classes
+        for class_name, class_info in service.ontology_classes.items():
+            class_uri = ns[class_name]
+            g.add((class_uri, RDF.type, RDFS.Class))
+            g.add((class_uri, RDFS.label, Literal(class_info.get('label', class_name))))
+            if 'comment' in class_info:
+                g.add((class_uri, RDFS.comment, Literal(class_info['comment'])))
+        
+        # Add food items and their properties
+        for food_name, properties in service.food_mappings.items():
+            # Create URI for the food item
+            food_uri = ns[food_name.replace(' ', '_')]
+            
+            # Add type
+            food_class = properties.get('ontology_class', 'Food')
+            g.add((food_uri, RDF.type, ns[food_class]))
+            
+            # Add label
+            g.add((food_uri, RDFS.label, Literal(food_name)))
+            
+            # Add properties
+            for prop, value in properties.items():
+                if prop == 'ontology_class':
+                    continue  # Already handled
+                    
+                if isinstance(value, list):
+                    for item in value:
+                        g.add((food_uri, ns[prop], Literal(item)))
+                else:
+                    g.add((food_uri, ns[prop], Literal(value)))
+        
+        # Serialize to RDF/XML
+        rdf_data = g.serialize(format='xml')
+        
+        # Create response
+        response = app.response_class(
+            response=rdf_data,
+            status=200,
+            mimetype='application/rdf+xml'
+        )
+        
+        # Add headers for file download
+        response.headers['Content-Disposition'] = 'attachment; filename=food_ontology_export.rdf'
+        return response
+        
+    except Exception as e:
+        return jsonify({"error": f"Failed to export ontology: {str(e)}"}), 500
+
 if __name__ == '__main__':
     print("🎯 Food Semantic Web Service with Smart Search starting...")
     print(f"📊 Loaded {len(service.food_mappings)} food mappings")
