@@ -1,0 +1,297 @@
+{
+  "food_mappings": {
+    "Bhature (Fried Indian Bread)": {
+      "ontology_class": "CookedFood",
+      "food_type": "MainFood",
+      "category": "Bread",
+      "region": "South African Indian",
+      "preparation": "Fried",
+      "primary_ingredients": ["Wheat flour", "Yogurt", "Oil", "Yeast"],
+      "cultural_origin": "Indian-South African",
+      "nutritional_focus": "Carbohydrates"
+    },
+    "Boerewors": {
+      "ontology_class": "CookedFood",
+      "food_type": "MainFood",
+      "category": "Sausage",
+      "region": "South Africa",
+      "preparation": "Grilled",
+      "primary_ingredients": ["Beef", "Pork", "Lamb", "Spices", "Vinegar"],
+      "cultural_origin": "Afrikaner",
+      "nutritional_focus": "Protein"
+    },
+    "Firinda (Skinned bean Stew)": {
+      "ontology_class": "CookedFood",
+      "food_type": "MainFood",
+      "category": "Stew",
+      "region": "South Africa",
+      "preparation": "Stewed",
+      "primary_ingredients": ["Skinned beans", "Tomatoes", "Onions", "Spices"],
+      "cultural_origin": "South African",
+      "nutritional_focus": "Protein"
+    },
+    "Liver lamb raw": {
+      "ontology_class": "RawFood",
+      "food_type": "Ingredient",
+      "category": "Organ Meat",
+      "region": "South Africa",
+      "preparation": "Fresh",
+      "primary_ingredients": ["Lamb liver"],
+      "cultural_origin": "Traditional",
+      "nutritional_focus": "Protein"
+    },
+    "Mackerel raw": {
+      "ontology_class": "RawFood",
+      "food_type": "Ingredient",
+      "category": "Fish",
+      "region": "South Africa",
+      "preparation": "Fresh",
+      "primary_ingredients": ["Mackerel fish"],
+      "cultural_origin": "Coastal",
+      "nutritional_focus": "Protein"
+    },
+    "Margarine": {
+      "ontology_class": "FoodAdditive",
+      "food_type": "Ingredient",
+      "category": "Fat Spread",
+      "region": "International",
+      "preparation": "Processed",
+      "primary_ingredients": ["Vegetable oils", "Water", "Salt"],
+      "cultural_origin": "Industrial",
+      "nutritional_focus": "Fat"
+    },
+    "Potjiekos": {
+      "ontology_class": "CookedFood",
+      "food_type": "MainFood",
+      "category": "Traditional Stew",
+      "region": "South Africa",
+      "preparation": "Slow-cooked",
+      "primary_ingredients": ["Meat", "Vegetables", "Potatoes", "Spices"],
+      "cultural_origin": "Afrikaner",
+      "nutritional_focus": "Protein"
+    },
+    "Biltong": {
+      "ontology_class": "CookedFood",
+      "food_type": "MainFood",
+      "category": "Dried Meat",
+      "region": "South Africa",
+      "preparation": "Dried",
+      "primary_ingredients": ["Beef", "Game meat", "Salt", "Vinegar", "Spices"],
+      "cultural_origin": "Afrikaner",
+      "nutritional_focus": "Protein"
+    },
+    "Chakalaka and pap": {
+      "ontology_class": "CookedFood",
+      "food_type": "MainFood",
+      "category": "Traditional Dish",
+      "region": "South Africa",
+      "preparation": "Cooked",
+      "primary_ingredients": ["Maize meal", "Tomatoes", "Onions", "Peppers", "Beans"],
+      "cultural_origin": "South African Township",
+      "nutritional_focus": "Carbohydrates"
+    },
+    "Koeksisters": {
+      "ontology_class": "CookedFood",
+      "food_type": "MainFood",
+      "category": "Sweet Pastry",
+      "region": "South Africa",
+      "preparation": "Fried and Syruped",
+      "primary_ingredients": ["Wheat flour", "Sugar", "Syrup", "Oil"],
+      "cultural_origin": "Afrikaner",
+      "nutritional_focus": "Carbohydrates"
+    },
+    "Liver poultry raw": {
+      "ontology_class": "RawFood",
+      "food_type": "Ingredient",
+      "category": "Organ Meat",
+      "region": "South Africa",
+      "preparation": "Fresh",
+      "primary_ingredients": ["Chicken liver"],
+      "cultural_origin": "Traditional",
+      "nutritional_focus": "Protein"
+    },
+    "Malva pudding": {
+      "ontology_class": "CookedFood",
+      "food_type": "MainFood",
+      "category": "Dessert",
+      "region": "South Africa",
+      "preparation": "Baked",
+      "primary_ingredients": ["Flour", "Sugar", "Eggs", "Milk", "Apricot jam"],
+      "cultural_origin": "Afrikaner",
+      "nutritional_focus": "Carbohydrates"
+    },
+    "Marzipan": {
+      "ontology_class": "CookedFood",
+      "food_type": "MainFood",
+      "category": "Confectionery",
+      "region": "International",
+      "preparation": "Processed",
+      "primary_ingredients": ["Almonds", "Sugar", "Rose water"],
+      "cultural_origin": "European",
+      "nutritional_focus": "Carbohydrates"
+    },
+    "Pumpkins with Peanut Butter": {
+      "ontology_class": "CookedFood",
+      "food_type": "MainFood",
+      "category": "Traditional Dish",
+      "region": "South Africa",
+      "preparation": "Cooked",
+      "primary_ingredients": ["Pumpkin", "Peanut butter", "Onions"],
+      "cultural_origin": "African",
+      "nutritional_focus": "Carbohydrates"
+    },
+    "Bobotie": {
+      "ontology_class": "CookedFood",
+      "food_type": "MainFood",
+      "category": "Baked Dish",
+      "region": "South Africa",
+      "preparation": "Baked",
+      "primary_ingredients": ["Minced meat", "Bread", "Milk", "Eggs", "Curry spices"],
+      "cultural_origin": "Cape Malay",
+      "nutritional_focus": "Protein"
+    },
+    "Durban bunny chow": {
+      "ontology_class": "CookedFood",
+      "food_type": "MainFood",
+      "category": "Street Food",
+      "region": "South Africa",
+      "preparation": "Assembled",
+      "primary_ingredients": ["Bread loaf", "Curry", "Meat or vegetables"],
+      "cultural_origin": "Indian-South African",
+      "nutritional_focus": "Carbohydrates"
+    },
+    "Lettuce raw": {
+      "ontology_class": "Vegetables",
+      "food_type": "RawFood",
+      "category": "Leafy Green",
+      "region": "International",
+      "preparation": "Fresh",
+      "primary_ingredients": ["Lactuca sativa"],
+      "cultural_origin": "International",
+      "nutritional_focus": "Fiber"
+    },
+    "Loquat pulp fresh": {
+      "ontology_class": "Fruit",
+      "food_type": "RawFood",
+      "category": "Fresh Fruit",
+      "region": "South Africa",
+      "preparation": "Fresh",
+      "primary_ingredients": ["Eriobotrya japonica"],
+      "cultural_origin": "Asian-adapted",
+      "nutritional_focus": "Vitamins"
+    },
+    "Mango, pulp raw": {
+      "ontology_class": "Fruit",
+      "food_type": "RawFood",
+      "category": "Tropical Fruit",
+      "region": "South Africa",
+      "preparation": "Fresh",
+      "primary_ingredients": ["Mangifera indica"],
+      "cultural_origin": "Tropical",
+      "nutritional_focus": "Vitamins"
+    },
+    "Meat camel raw": {
+      "ontology_class": "RawFood",
+      "food_type": "Ingredient",
+      "category": "Exotic Meat",
+      "region": "South Africa",
+      "preparation": "Fresh",
+      "primary_ingredients": ["Camel meat"],
+      "cultural_origin": "Traditional",
+      "nutritional_focus": "Protein"
+    },
+    "Vetkoek": {
+      "ontology_class": "CookedFood",
+      "food_type": "MainFood",
+      "category": "Fried Bread",
+      "region": "South Africa",
+      "preparation": "Deep-fried",
+      "primary_ingredients": ["Wheat flour", "Yeast", "Oil", "Salt"],
+      "cultural_origin": "Afrikaner",
+      "nutritional_focus": "Carbohydrates"
+    }
+  },
+  "ontology_classes": {
+    "Food": {
+      "description": "Base class for all food items",
+      "parent": null
+    },
+    "RawFood": {
+      "description": "Foods that are typically consumed without cooking",
+      "parent": "Food"
+    },
+    "CookedFood": {
+      "description": "Foods that require cooking or processing",
+      "parent": "Food"
+    },
+    "Vegetables": {
+      "description": "Plant-based foods, typically fresh",
+      "parent": "RawFood"
+    },
+    "Fruit": {
+      "description": "Sweet plant products, typically fresh",
+      "parent": "RawFood"
+    },
+    "Beverage": {
+      "description": "Liquid foods for drinking",
+      "parent": "Food"
+    },
+    "FoodAdditive": {
+      "description": "Substances added to food for flavor, preservation, or nutrition",
+      "parent": "FoodComponent"
+    },
+    "Ingredient": {
+      "description": "Components used in food preparation",
+      "parent": "Food"
+    },
+    "MainFood": {
+      "description": "Primary foods that form the basis of meals",
+      "parent": "Food"
+    },
+    "Complement": {
+      "description": "Foods that complement main dishes",
+      "parent": "Food"
+    },
+    "Dish": {
+      "description": "Prepared combinations of ingredients",
+      "parent": "Food"
+    }
+  },
+  "regions": [
+    "South Africa",
+    "South African Indian",
+    "International",
+    "Cape Malay",
+    "Indian-South African",
+    "Afrikaner",
+    "African",
+    "Coastal",
+    "European",
+    "Asian-adapted",
+    "Tropical",
+    "Traditional",
+    "South African Township"
+  ],
+  "nutritional_categories": [
+    "Carbohydrates",
+    "Protein", 
+    "Fat",
+    "Fiber",
+    "Vitamins",
+    "Minerals"
+  ],
+  "preparation_methods": [
+    "Fresh",
+    "Cooked",
+    "Baked",
+    "Stewed",
+    "Fried",
+    "Dried",
+    "Processed",
+    "Grilled",
+    "Slow-cooked",
+    "Fried and Syruped",
+    "Deep-fried",
+    "Assembled"
+  ]
+}

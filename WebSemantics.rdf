@@ -1,0 +1,320 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8/"
+     xml:base="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#belongto -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#belongto">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Food"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#DelocalizedArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#buffet_of_dish -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#buffet_of_dish">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Buffet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Dish"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#composedOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#composedOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Food"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#FoodComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#dish_of_food -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#dish_of_food">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Dish"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Food"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#foodgroup_of_food -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#foodgroup_of_food">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#FoodGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Food"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#hasrecipe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#hasrecipe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Food"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Recipe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#AlcohilicBeverage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#AlcohilicBeverage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Beverage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Beverage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Beverage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Buffet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Buffet"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Coffee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Coffee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Beverage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Complement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Complement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#CookedFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#CookedFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#DelocalizedArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#DelocalizedArea"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Dish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Dish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Fiber -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Fiber">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#FoodComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Food"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#FoodAdditive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#FoodAdditive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#FoodComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#FoodComponent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#FoodComponent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#FoodGroup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#FoodGroup"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#FoodWithComplement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#FoodWithComplement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Fruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#RawFood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Ingredient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Ingredient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#MacroNutrient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#MacroNutrient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Nutrient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#MainFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#MainFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#ManufacturedBeverage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#ManufacturedBeverage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Beverage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#ManufacturedFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#ManufacturedFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#MicroNutrient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#MicroNutrient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Nutrient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#NaturalBeverage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#NaturalBeverage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Beverage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Nutrient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Nutrient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#FoodComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#RawFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#RawFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Recipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Recipe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#SecondaryMetbolite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#SecondaryMetbolite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#FoodAdditive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Tea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Tea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Beverage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Tisane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Tisane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Beverage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Vegetables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Vegetables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#RawFood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#Water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#FoodComponent"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

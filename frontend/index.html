@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSemantics - Recherche Alimentaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>WebSemantics - Recherche Alimentaire</h1>
+    </header>
+    <main>
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="tab-search">Recherche</button>
+            <button class="tab-btn" data-tab="tab-all">Tous les repas</button>
+            <button class="tab-btn" data-tab="tab-image">Image principale</button>
+            <button class="tab-btn" data-tab="tab-image-index">Image par index</button>
+            <button class="tab-btn" data-tab="tab-suggest">Suggestions</button>
+        </div>
+        <div class="tab-content active" id="tab-search">
+            <form id="searchForm" class="google-like-form">
+                <input type="text" id="searchInput" placeholder="Recherche Google des aliments..." autocomplete="off" required>
+                <button type="submit">Rechercher</button>
+            </form>
+            <section id="resultsSection"></section>
+        </div>
+        <div class="tab-content" id="tab-all">
+            <button id="showAllBtn" type="button">Afficher tous les aliments</button>
+            <section id="allFoodsSection"></section>
+        </div>
+        <div class="tab-content" id="tab-image">
+            <form id="imageForm">
+                <input type="text" id="imageFoodInput" placeholder="Nom de l'aliment..." required>
+                <button type="submit">Voir l'image principale</button>
+            </form>
+            <div id="imageResult"></div>
+        </div>
+        <div class="tab-content" id="tab-image-index">
+            <form id="imageIndexForm">
+                <input type="text" id="imageIndexFoodInput" placeholder="Nom de l'aliment..." required>
+                <input type="number" id="imageIndexInput" placeholder="Index de l'image..." min="0" required>
+                <button type="submit">Voir l'image à l'index</button>
+            </form>
+            <div id="imageIndexResult"></div>
+        </div>
+        <div class="tab-content" id="tab-suggest">
+            <form id="suggestForm">
+                <input type="text" id="suggestInput" placeholder="Texte pour suggestions..." required>
+                <button type="submit">Obtenir des suggestions</button>
+            </form>
+            <div id="suggestResult"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 ZOGO ABOUMA ZOZIME ACHAIRE  (18N2824)</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 

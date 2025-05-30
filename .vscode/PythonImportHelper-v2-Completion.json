@@ -1,0 +1,553 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "send_file",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "CORS",
+        "importPath": "flask_cors",
+        "description": "flask_cors",
+        "isExtraImport": true,
+        "detail": "flask_cors",
+        "documentation": {}
+    },
+    {
+        "label": "SPARQLWrapper",
+        "importPath": "SPARQLWrapper",
+        "description": "SPARQLWrapper",
+        "isExtraImport": true,
+        "detail": "SPARQLWrapper",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "SPARQLWrapper",
+        "description": "SPARQLWrapper",
+        "isExtraImport": true,
+        "detail": "SPARQLWrapper",
+        "documentation": {}
+    },
+    {
+        "label": "SPARQLWrapper",
+        "importPath": "SPARQLWrapper",
+        "description": "SPARQLWrapper",
+        "isExtraImport": true,
+        "detail": "SPARQLWrapper",
+        "documentation": {}
+    },
+    {
+        "label": "POST",
+        "importPath": "SPARQLWrapper",
+        "description": "SPARQLWrapper",
+        "isExtraImport": true,
+        "detail": "SPARQLWrapper",
+        "documentation": {}
+    },
+    {
+        "label": "DIGEST",
+        "importPath": "SPARQLWrapper",
+        "description": "SPARQLWrapper",
+        "isExtraImport": true,
+        "detail": "SPARQLWrapper",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "Graph",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "Namespace",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "RDF",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "RDFS",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "URIRef",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "Graph",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "Namespace",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "RDF",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "RDFS",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "URIRef",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "Elasticsearch",
+        "importPath": "elasticsearch",
+        "description": "elasticsearch",
+        "isExtraImport": true,
+        "detail": "elasticsearch",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "quote",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "difflib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "difflib",
+        "description": "difflib",
+        "detail": "difflib",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "frontend-web.node_modules.flatted.python.flatted",
+        "description": "frontend-web.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "frontend-web.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "frontend-web.node_modules.flatted.python.flatted",
+        "description": "frontend-web.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "frontend-web.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "frontend-web.node_modules.flatted.python.flatted",
+        "description": "frontend-web.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "frontend-web.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend-web.node_modules.flatted.python.flatted",
+        "description": "frontend-web.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "frontend-web.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "SmartSearchEngine",
+        "kind": 6,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "class SmartSearchEngine:\n    \"\"\"Enhanced search engine with case-insensitive and auto-correct capabilities\"\"\"\n    def __init__(self, food_mappings):\n        self.food_mappings = food_mappings\n        self.food_names = list(food_mappings.keys())\n        self.food_names_lower = [name.lower() for name in self.food_names]\n        self.search_index = self._build_search_index()\n    def _build_search_index(self):\n        \"\"\"Build comprehensive search index\"\"\"\n        index = {}",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "FoodSemanticService",
+        "kind": 6,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "class FoodSemanticService:\n    def __init__(self):\n        self.config = self._load_mappings_config()\n        self.food_mappings = self.config.get('food_mappings', {})\n        self.ontology_classes = self.config.get('ontology_classes', {})\n        self.regions = self.config.get('regions', [])\n        self.nutritional_categories = self.config.get('nutritional_categories', [])\n        self.preparation_methods = self.config.get('preparation_methods', [])\n        # Initialize smart search engine\n        self.smart_search = SmartSearchEngine(self.food_mappings)",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "init_elasticsearch",
+        "kind": 2,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "def init_elasticsearch():\n    \"\"\"Initialize Elasticsearch with proper configuration and retry logic\"\"\"\n    max_retries = 5\n    retry_delay = 10\n    for attempt in range(max_retries):\n        try:\n            # Fixed Elasticsearch client initialization\n            es = Elasticsearch(\n                hosts=[{'host': 'elasticsearch', 'port': 9200, 'scheme': 'http'}],\n                request_timeout=30,",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "search_foods",
+        "kind": 2,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "def search_foods():\n    \"\"\"Enhanced search with case-insensitive matching, typo correction, and suggestions\"\"\"\n    # Support both 'q' and 'name' parameters for user convenience\n    query_text = request.args.get('q', '') or request.args.get('name', '')\n    ontology_class = request.args.get('class', '')\n    region = request.args.get('region', '')\n    category = request.args.get('category', '')\n    preparation = request.args.get('preparation', '')\n    nutritional_focus = request.args.get('nutrition', '')\n    # New parameters for enhanced search",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_foods",
+        "kind": 2,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "def get_all_foods():\n    \"\"\"Get all foods with image information - separate from search\"\"\"\n    try:\n        # Get the base URL for full image URLs\n        base_url = request.url_root.rstrip('/')\n        # Apply filters if provided\n        ontology_class = request.args.get('class', '')\n        region = request.args.get('region', '')\n        category = request.args.get('category', '')\n        foods = []",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "get_food_image",
+        "kind": 2,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "def get_food_image(food_name):\n    \"\"\"Get the first/primary image for a specific food with CORS headers\"\"\"\n    try:\n        # Decode URL-encoded food name\n        food_name = food_name.replace('%20', ' ').replace('%2C', ',')\n        image_dir = os.path.join(IMAGES_PATH, food_name)\n        if not os.path.exists(image_dir):\n            return jsonify({\"error\": \"Food not found\"}), 404\n        # Get first image file in the directory\n        image_files = [f for f in os.listdir(image_dir) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp'))]",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "get_food_image_by_index",
+        "kind": 2,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "def get_food_image_by_index(food_name, image_index):\n    \"\"\"Get a specific image by index for a food with CORS headers\"\"\"\n    try:\n        # Decode URL-encoded food name\n        food_name = food_name.replace('%20', ' ').replace('%2C', ',')\n        image_dir = os.path.join(IMAGES_PATH, food_name)\n        if not os.path.exists(image_dir):\n            return jsonify({\"error\": \"Food not found\"}), 404\n        # Get all image files\n        image_files = [f for f in os.listdir(image_dir) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp'))]",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "search_suggestions",
+        "kind": 2,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "def search_suggestions():\n    \"\"\"Get search suggestions for a query\"\"\"\n    query = request.args.get('q', '')\n    max_suggestions = int(request.args.get('limit', '10'))\n    try:\n        suggestions = service.smart_search.suggest_corrections(query, max_suggestions)\n        return jsonify({\n            \"query\": query,\n            \"suggestions\": suggestions,\n            \"total\": len(suggestions)",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "def health_check():\n    \"\"\"Health check endpoint with search capabilities info\"\"\"\n    health_status = {\n        \"status\": \"healthy\",\n        \"services\": {\n            \"fuseki\": \"healthy\",\n            \"web\": \"healthy\",\n            \"elasticsearch\": \"healthy\" if es is not None else \"unavailable\",\n            \"smart_search\": \"available\"\n        },",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "app = Flask(__name__)\nCORS(app)\n# Configuration\nFUSEKI_ENDPOINT = \"http://localhost:3030/food-kb/sparql\"\nIMAGES_PATH = \"/app/data/images\"\nONTOLOGY_NS = \"http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#\"\nMAPPINGS_FILE = \"/app/data/food_mappings.json\"\n# Initialize SPARQL wrapper\nsparql = SPARQLWrapper(FUSEKI_ENDPOINT)\nsparql.setReturnFormat(JSON)",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "FUSEKI_ENDPOINT",
+        "kind": 5,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "FUSEKI_ENDPOINT = \"http://localhost:3030/food-kb/sparql\"\nIMAGES_PATH = \"/app/data/images\"\nONTOLOGY_NS = \"http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#\"\nMAPPINGS_FILE = \"/app/data/food_mappings.json\"\n# Initialize SPARQL wrapper\nsparql = SPARQLWrapper(FUSEKI_ENDPOINT)\nsparql.setReturnFormat(JSON)\n# Initialize Elasticsearch for text search - Fixed configuration\ndef init_elasticsearch():\n    \"\"\"Initialize Elasticsearch with proper configuration and retry logic\"\"\"",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "IMAGES_PATH",
+        "kind": 5,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "IMAGES_PATH = \"/app/data/images\"\nONTOLOGY_NS = \"http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#\"\nMAPPINGS_FILE = \"/app/data/food_mappings.json\"\n# Initialize SPARQL wrapper\nsparql = SPARQLWrapper(FUSEKI_ENDPOINT)\nsparql.setReturnFormat(JSON)\n# Initialize Elasticsearch for text search - Fixed configuration\ndef init_elasticsearch():\n    \"\"\"Initialize Elasticsearch with proper configuration and retry logic\"\"\"\n    max_retries = 5",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "ONTOLOGY_NS",
+        "kind": 5,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "ONTOLOGY_NS = \"http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#\"\nMAPPINGS_FILE = \"/app/data/food_mappings.json\"\n# Initialize SPARQL wrapper\nsparql = SPARQLWrapper(FUSEKI_ENDPOINT)\nsparql.setReturnFormat(JSON)\n# Initialize Elasticsearch for text search - Fixed configuration\ndef init_elasticsearch():\n    \"\"\"Initialize Elasticsearch with proper configuration and retry logic\"\"\"\n    max_retries = 5\n    retry_delay = 10",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "MAPPINGS_FILE",
+        "kind": 5,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "MAPPINGS_FILE = \"/app/data/food_mappings.json\"\n# Initialize SPARQL wrapper\nsparql = SPARQLWrapper(FUSEKI_ENDPOINT)\nsparql.setReturnFormat(JSON)\n# Initialize Elasticsearch for text search - Fixed configuration\ndef init_elasticsearch():\n    \"\"\"Initialize Elasticsearch with proper configuration and retry logic\"\"\"\n    max_retries = 5\n    retry_delay = 10\n    for attempt in range(max_retries):",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "sparql",
+        "kind": 5,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "sparql = SPARQLWrapper(FUSEKI_ENDPOINT)\nsparql.setReturnFormat(JSON)\n# Initialize Elasticsearch for text search - Fixed configuration\ndef init_elasticsearch():\n    \"\"\"Initialize Elasticsearch with proper configuration and retry logic\"\"\"\n    max_retries = 5\n    retry_delay = 10\n    for attempt in range(max_retries):\n        try:\n            # Fixed Elasticsearch client initialization",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "es",
+        "kind": 5,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "es = init_elasticsearch()\nclass SmartSearchEngine:\n    \"\"\"Enhanced search engine with case-insensitive and auto-correct capabilities\"\"\"\n    def __init__(self, food_mappings):\n        self.food_mappings = food_mappings\n        self.food_names = list(food_mappings.keys())\n        self.food_names_lower = [name.lower() for name in self.food_names]\n        self.search_index = self._build_search_index()\n    def _build_search_index(self):\n        \"\"\"Build comprehensive search index\"\"\"",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "service",
+        "kind": 5,
+        "importPath": "service.app",
+        "description": "service.app",
+        "peekOfCode": "service = FoodSemanticService()\n# Fixed search endpoint with proper query handling\n@app.route('/api/search', methods=['GET'])\ndef search_foods():\n    \"\"\"Enhanced search with case-insensitive matching, typo correction, and suggestions\"\"\"\n    # Support both 'q' and 'name' parameters for user convenience\n    query_text = request.args.get('q', '') or request.args.get('name', '')\n    ontology_class = request.args.get('class', '')\n    region = request.args.get('region', '')\n    category = request.args.get('category', '')",
+        "detail": "service.app",
+        "documentation": {}
+    },
+    {
+        "label": "load_food_mappings",
+        "kind": 2,
+        "importPath": "service.populate_kb",
+        "description": "service.populate_kb",
+        "peekOfCode": "def load_food_mappings():\n    \"\"\"Load food mappings from JSON file\"\"\"\n    try:\n        with open(MAPPINGS_FILE, 'r', encoding='utf-8') as f:\n            config = json.load(f)\n            return config.get('food_mappings', {})\n    except FileNotFoundError:\n        print(f\"Mappings file not found: {MAPPINGS_FILE}\")\n        return {}\n    except json.JSONDecodeError as e:",
+        "detail": "service.populate_kb",
+        "documentation": {}
+    },
+    {
+        "label": "populate_knowledge_base",
+        "kind": 2,
+        "importPath": "service.populate_kb",
+        "description": "service.populate_kb",
+        "peekOfCode": "def populate_knowledge_base():\n    \"\"\"Populate the knowledge base with food instances from JSON mappings\"\"\"\n    # Load food mappings from JSON\n    food_mappings = load_food_mappings()\n    if not food_mappings:\n        print(\"No food mappings found. Exiting.\")\n        return\n    # Create RDF graph\n    g = Graph()\n    g.bind(\"\", ONTOLOGY_NS)",
+        "detail": "service.populate_kb",
+        "documentation": {}
+    },
+    {
+        "label": "FUSEKI_UPDATE_ENDPOINT",
+        "kind": 5,
+        "importPath": "service.populate_kb",
+        "description": "service.populate_kb",
+        "peekOfCode": "FUSEKI_UPDATE_ENDPOINT = \"http://localhost:3030/food-kb/update\"\nIMAGES_PATH = \"/app/data/images\"\nMAPPINGS_FILE = \"/app/data/food_mappings.json\"\nONTOLOGY_NS = Namespace(\"http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#\")\ndef load_food_mappings():\n    \"\"\"Load food mappings from JSON file\"\"\"\n    try:\n        with open(MAPPINGS_FILE, 'r', encoding='utf-8') as f:\n            config = json.load(f)\n            return config.get('food_mappings', {})",
+        "detail": "service.populate_kb",
+        "documentation": {}
+    },
+    {
+        "label": "IMAGES_PATH",
+        "kind": 5,
+        "importPath": "service.populate_kb",
+        "description": "service.populate_kb",
+        "peekOfCode": "IMAGES_PATH = \"/app/data/images\"\nMAPPINGS_FILE = \"/app/data/food_mappings.json\"\nONTOLOGY_NS = Namespace(\"http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#\")\ndef load_food_mappings():\n    \"\"\"Load food mappings from JSON file\"\"\"\n    try:\n        with open(MAPPINGS_FILE, 'r', encoding='utf-8') as f:\n            config = json.load(f)\n            return config.get('food_mappings', {})\n    except FileNotFoundError:",
+        "detail": "service.populate_kb",
+        "documentation": {}
+    },
+    {
+        "label": "MAPPINGS_FILE",
+        "kind": 5,
+        "importPath": "service.populate_kb",
+        "description": "service.populate_kb",
+        "peekOfCode": "MAPPINGS_FILE = \"/app/data/food_mappings.json\"\nONTOLOGY_NS = Namespace(\"http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#\")\ndef load_food_mappings():\n    \"\"\"Load food mappings from JSON file\"\"\"\n    try:\n        with open(MAPPINGS_FILE, 'r', encoding='utf-8') as f:\n            config = json.load(f)\n            return config.get('food_mappings', {})\n    except FileNotFoundError:\n        print(f\"Mappings file not found: {MAPPINGS_FILE}\")",
+        "detail": "service.populate_kb",
+        "documentation": {}
+    },
+    {
+        "label": "ONTOLOGY_NS",
+        "kind": 5,
+        "importPath": "service.populate_kb",
+        "description": "service.populate_kb",
+        "peekOfCode": "ONTOLOGY_NS = Namespace(\"http://www.semanticweb.org/zaz/ontologies/2025/4/untitled-ontology-8#\")\ndef load_food_mappings():\n    \"\"\"Load food mappings from JSON file\"\"\"\n    try:\n        with open(MAPPINGS_FILE, 'r', encoding='utf-8') as f:\n            config = json.load(f)\n            return config.get('food_mappings', {})\n    except FileNotFoundError:\n        print(f\"Mappings file not found: {MAPPINGS_FILE}\")\n        return {}",
+        "detail": "service.populate_kb",
+        "documentation": {}
+    },
+    {
+        "label": "test_search",
+        "kind": 2,
+        "importPath": "service.test_search",
+        "description": "service.test_search",
+        "peekOfCode": "def test_search(query, description=\"\"):\n    print(f\"\\n🔍 Testing: {description or query}\")\n    print(\"-\" * 50)\n    response = requests.get(f\"{API_BASE}/api/search\", params={'q': query})\n    if response.status_code == 200:\n        data = response.json()\n        results = data.get('results', [])\n        suggestions = data.get('suggestions', [])\n        print(f\"✅ Found {len(results)} results\")\n        for i, result in enumerate(results[:3]):  # Show top 3",
+        "detail": "service.test_search",
+        "documentation": {}
+    },
+    {
+        "label": "API_BASE",
+        "kind": 5,
+        "importPath": "service.test_search",
+        "description": "service.test_search",
+        "peekOfCode": "API_BASE = \"http://localhost:8080\"\ndef test_search(query, description=\"\"):\n    print(f\"\\n🔍 Testing: {description or query}\")\n    print(\"-\" * 50)\n    response = requests.get(f\"{API_BASE}/api/search\", params={'q': query})\n    if response.status_code == 200:\n        data = response.json()\n        results = data.get('results', [])\n        suggestions = data.get('suggestions', [])\n        print(f\"✅ Found {len(results)} results\")",
+        "detail": "service.test_search",
+        "documentation": {}
+    },
+    {
+        "label": "test_cases",
+        "kind": 5,
+        "importPath": "service.test_search",
+        "description": "service.test_search",
+        "peekOfCode": "test_cases = [\n    (\"bread\", \"Case-insensitive basic search\"),\n    (\"PILAU\", \"Uppercase search\"),\n    (\"bred\", \"Typo correction\"),\n    (\"plaw\", \"Fuzzy matching\"),\n    (\"spiced rice\", \"Alternative name\"),\n    (\"beans\", \"Ingredient search\"),\n    (\"swahili\", \"Cultural search\"),\n    (\"mchu\", \"Partial matching\"),\n    (\"xyz123\", \"No matches (should suggest)\")",
+        "detail": "service.test_search",
+        "documentation": {}
+    }
+]
