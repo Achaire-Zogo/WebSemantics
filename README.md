@@ -3,7 +3,7 @@
 Bienvenue sur WebSemantics, une application web moderne pour explorer, rechercher et visualiser des aliments et leurs images à partir d'une base de connaissances sémantique.
 
 ## Fonctionnalités principales
-- **Recherche Google-like** : trouvez des aliments par nom, catégorie, région, etc.
+- **Recherche Global** : trouvez des aliments par nom, catégorie, région, etc.
 - **Affichage de tous les aliments** : parcourez la base complète.
 - **Visualisation d'images** : affichez l'image principale ou toutes les images d'un aliment.
 - **Suggestions de recherche** : obtenez des suggestions pour corriger ou compléter vos requêtes.
@@ -23,8 +23,8 @@ Bienvenue sur WebSemantics, une application web moderne pour explorer, recherche
 
 ### 1. Cloner le projet
 ```bash
-git clone <votre-url-du-projet>
-cd project
+git clone https://github.com/Achaire-Zogo/WebSemantics.git
+cd WebSemantics
 ```
 
 ### 2. Installer les dépendances Python
@@ -89,4 +89,8 @@ project/
 ## Support
 Pour toute question ou problème, contactez l'auteur ou ouvrez une issue sur le dépôt Git.
 
-Bonne découverte de WebSemantics ! 
+Bonne découverte de WebSemantics !
+
+## Contributor
+
+- ACHAIRE ZOGO
